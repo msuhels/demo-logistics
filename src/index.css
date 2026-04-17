@@ -1,0 +1,21 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background: #0f1117;
+  color: #e2e8f0;
+  min-height: 100vh;
+  font-size: 14px;
+}
+
+:root {
+  --bg0: #0f1117; --bg1: #161b27; --bg2: #1e2536; --bg3: #252d3d;
+  --border: #2d3748; --border2: #3a4558;
+  --text1: #e2e8f0; --text2: #94a3b8; --text3: #64748b;
+  --green: #22c55e; --green-bg: rgba(34,197,94,.1); --green-border: rgba(34,197,94,.25);
+  --amber: #f59e0b; --amber-bg: rgba(245,158,11,.1); --amber-border: rgba(245,158,11,.25);
+  --red: #ef4444;   --red-bg: rgba(239,68,68,.1);    --red-border: rgba(239,68,68,.25);
+  --blue: #3b82f6;  --blue-bg: rgba(59,130,246,.1);  --blue-border: rgba(59,130,246,.25);
+  --purple: #a855f7;
+  --radius: 8px; --radius-lg: 12px;
+}
